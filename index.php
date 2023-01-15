@@ -75,7 +75,7 @@
             <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wealth"></span>
             </div>
             <div class="text pl-4">
-              <h4>Market Analysis</h4>
+              <h4>Private Limited Registration</h4>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
@@ -83,7 +83,7 @@
             <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-accountant"></span>
             </div>
             <div class="text pl-4">
-              <h4>Accounting Advisor</h4>
+              <h4>FSSAI Registration</h4>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-teamwork"></span>
             </div>
             <div class="text pl-4">
-              <h4>General Consultancy</h4>
+              <h4>GST Registration</h4>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
           </div>
@@ -99,15 +99,20 @@
             <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-accounting"></span>
             </div>
             <div class="text pl-4">
-              <h4>Structured Assestment</h4>
+              <h4>Trademark Registration</h4>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+          <div class="services-2 w-100 d-flex">
+            <div class="text pl-4 m-5">
+            <a href="" type="button" class="btn btn-success">More Services</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="ftco-section bg-light ftco-no-pt">
+  <!-- <section class="ftco-section bg-light ftco-no-pt">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3 d-flex services align-self-stretch px-4 ftco-animate">
@@ -156,7 +161,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="ftco-counter bg-light ftco-no-pt" id="section-counter">
     <div class="container">
       <div class="row">
@@ -436,7 +441,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
               </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+              <h3 class="heading"><a href="blogs.php">Even the all-powerful Pointing has no control about the blind texts</a>
               </h3>
             </div>
           </div>
@@ -451,7 +456,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
               </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+              <h3 class="heading"><a href="blogs.php">Even the all-powerful Pointing has no control about the blind texts</a>
               </h3>
             </div>
           </div>
@@ -466,7 +471,7 @@
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
               </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+              <h3 class="heading"><a href="blogs.php">Even the all-powerful Pointing has no control about the blind texts</a>
               </h3>
             </div>
           </div>
@@ -678,6 +683,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/editjs.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
   <script>
