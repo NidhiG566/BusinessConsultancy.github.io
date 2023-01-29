@@ -346,7 +346,6 @@ input {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 533px;
 	background-color: #FFF;
 	border-radius: 10px;
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
@@ -530,6 +529,52 @@ input {
   margin: 4px 26px;
   cursor: pointer;
 }
+
+
+.card_us{
+	margin: 10px auto;
+	box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+	border-radius: 6px;
+	height: 100%;
+	transition: 0.3s;
+  }
+.card_us:hover {
+  box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+}
+  .card-title{
+	text-align: center;
+	color: #666666;
+	font-weight: bold;
+  }
+  .card-text{
+		font-weight: 500;
+  color: #66686b;
+  }
+  .card-image_us{
+	text-align: center;
+	height: 78px;
+	width: 82px;
+	margin: 20px 0 20px 100px;
+	
+	
+  }
+  .card-text{
+	text-align: center;
+  }
+
+  .title-heading{
+	font-size: 3em;
+	text-align: center;
+	margin: 4%;
+	font-weight: bold;
+
+  }
+
+  .doc ul li i{
+	font-size: 23px;
+	color:green;
+	margin: 6px;
+  }
 
 
 
