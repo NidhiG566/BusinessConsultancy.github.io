@@ -3,170 +3,43 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<!--Head-->
+
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
 
 
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-          <h3>One Person Company Registration</h3>
-          <p>One person company (OPC) means a company formed with only one (single) person as a member, unlike the traditional manner of having at least two members.is a business structure that enjoys the benefits of both forms of business, i.e., a sole proprietorship and a company.</p>
-          <p>
-            According to Section 2 (62) of the Company's Act 2013, a company can be formed with just 1 director and 1 member. One Person Company registration in India is a type of entity where there very few compliance requirements in comparison with a private corporation.
-          </p>
-          <p>
-            The main aim of One Person Company was to encourage corporatization of micro-businesses and entrepreneurship. 
-          </p>
-          <h3>What is the process of for One Person Company Registration</h3>
+            <h3>Annual Compliances for Private Limited Company</h3>
+            <p>Annual compliance for a private limited company refers to the various legal and regulatory requirements that the company needs to fulfill on an annual basis. These requirements are put in place to ensure that the company is operating in a transparent and compliant manner, and to protect the interests of its stakeholders, including shareholders, employees, and customers.</p>
+            </p>
+            <h3>Key compliance requirements for a private limited company in India</h3>
 
-          <ul>
-            <li>Provide OPC Owner’s Basic Details, like, Full Name, Email, Phone Number, etc.</li>
-            <li>Request DSCs and DINs for each director</li>
-            <li>Submit a request for a name reservation Form Spice+ for company incorporation</li>
-            <li>Drafting of MoA, AoA & other required documents</li>
-            <li>Apply for PAN and TAN for your new business</li>
-            <li>Obtain Certificate of Incorporation (COI)</li>
-        </ul>
+            <ul>
+            <li><i class="fa fa-check"></i></span>Holding an Annual General Meeting (AGM) within six months from the end of the financial year.</li>
+            <li><i class="fa fa-check"></i></span>Filing of financial statements, including balance sheet, profit and loss account, and cash flow statement, with the Registrar of Companies (ROC) within 30 days from the date of the AGM.</li>
+            <li><i class="fa fa-check"></i></span>Filing of income tax returns with the Income Tax Department by September 30th of every year.</li>
+            <li><i class="fa fa-check"></i></span>Holding at least four board meetings every year and recording the minutes of the meeting.</li>
+            <li>
+            <i class="fa fa-check"></i></span>Maintaining various statutory registers such as the register of members, register of directors, register of charges, etc.
+            </li>
+            <li>
+            <i class="fa fa-check"></i></span>Obtaining a compliance certificate from a Company Secretary in Practice (CSP) or a Chartered Accountant (CA) certifying that the company has complied with all the legal and regulatory requirements.
+            </li>
+            </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"> 
           <div class="card">
             <div class="card-image">
               <h2 class="card-heading">
@@ -197,24 +70,6 @@
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-12 doc">
-          <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
-          <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
-          <P>
-            <ul>
-                <li><span><i class="fa fa-check"></i></span>  ID Proof (PAN Card)</li>
-                <li><span><i class="fa fa-check"></i></span>  Copy of Aadhaar Card/Voter ID/Passport/Driving License of owner</li>
-                <li><span><i class="fa fa-check"></i></span>  Address Proof (Bank Statement, Mobile bill, Telephone bill)</li>
-                <li><span><i class="fa fa-check"></i></span>  Business Address Proof</li>
-                <li><span><i class="fa fa-check"></i></span>  Copy of Rent agreement (If rented property)</li>
-                <li><span><i class="fa fa-check"></i></span>  Landlord NOC (If rented property)</li>
-                <li><span><i class="fa fa-check"></i></span>  Passport Size Photo</li>
-            </ul>
-          </P>
-        </div>
-      </div>
     </div>
 
   </section>
@@ -236,7 +91,7 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">What is the role of a Nominee in an OPC?
+                    <p class="mb-0">What is the maximum number of directors in Company?
 
                     </p>
                     <i class="fa" aria-hidden="true"></i>
@@ -245,7 +100,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>A nominee is an individual who becomes a member of the company in case of the promoter's death or incapacitation.
+                  <p>The maximum number of directors a company can appoint is 15. However, the maximum number of directors in a company can be increased beyond 15 by passing a special resolution.
                   </p>
                 </div>
               </div>
@@ -256,7 +111,7 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">How much capital is required to begin with OPC company?
+                    <p class="mb-0">how long does it take to appoint a director?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -264,7 +119,7 @@
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>The least capital demand is Rs. 1 Lakh but this amount varies from your investment. Authorized capital and investment are not the same in OPC Company. You can invest as much as you want to but when you need to incorporate a company professionally, it has to be begun with Rs.1 Lakh as capital.
+                  <p>One the entire procedure is completed and the forms are filled and DIN is obtained,it takes one day to appoint him/her as the company director.
                 </p>
                 </div>
               </div>
@@ -275,7 +130,7 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">Is there any tax advantage on forming an OPC?
+                    <p class="mb-0">Who can't be a director of a company?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -283,8 +138,7 @@
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>There is no specific tax advantage to an OPC over any other form of company. The tax rate is flat 30%, other tax provisions like MAT & Dividend Distribution Tax (DDT) apply as they apply to any other form of company.
-
+                  <p>A person cannot be appointed as a director if he doesn’t qualify under the AoA, if they are an undischarged bankrupt, or if they are restricted by a court order or company’s official auditor
                   </p>
                 </div>
               </div>
@@ -295,7 +149,7 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">Is a Private Limited Company better than OPC?
+                    <p class="mb-0">Is this process online?
 
                     </p>
                     <i class="fa" aria-hidden="true"></i>
@@ -304,7 +158,7 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>OPC is a Company that has a separate existence and is owned by one single member. One person happens to be a mixture of proprietorship and company forms of business.
+                  <p>Yes,This process is 100% online process.
                   </p>
                 </div>
               </div>

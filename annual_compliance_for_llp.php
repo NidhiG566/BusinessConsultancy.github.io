@@ -3,171 +3,43 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<!--Head-->
+
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
 
 
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-          <h3> Limited Liability Partnership In India</h3>
-          <p>LLP is an alternative corporate business form that gives the benefits of limited liability of a company and
-            the flexibility of a partnership.A Limited Liability Partnership (LLP) is governed by the Limited Liability
-            Partnership Act 2008; the Bill was presented on 12 December 2008 and was enforced on 31st March 2008. The
-            act governs the formation and regulation of a Limited Liability Partnership.</p>
-          <p>
-            To register an LLP minimum two partners are required to incorporate an LLP. However, there is no upper limit
-            on the maximum number of partners of an LLP.
-          </p>
-          <h3>What is the process of for Limited Liability Partnership In India</h3>
+            <h3>Annual Compliances for Limited Liability Company</h3>
+            <p>An LLP, or Limited Liability Partnership, is a type of legal business structure that combines the flexibility and tax benefits of a partnership with the limited liability protection of a corporation.</p>
+            <p>
+            In an LLP, the partners are not personally liable for the debts or liabilities of the business beyond their investment in the partnership. This means that if the partnership incurs debts or is sued, the personal assets of the partners are generally protected.LLPs are also commonly used for joint ventures or special projects where partners want to collaborate without forming a formal corporation.
+            </p>
+            </p>
+            <h3>Requirments for compliance a liability limited company in India</h3>
 
-          <ul>
-            <li>Obtain Digital Signature Certificate (DSC)</li>
-            <li>Getting Digital Signature Certificate (DSC)</li>
-            <li>Select a Unique Name for your LLP</li>
-            <li>Preparation of Documents for Incorporation of LLP</li>
-            <li>File Limited Liability Partnership (LLP) Agreement</li>
-            <li>Appeal for PAN, TAN and Bank account</li>
-          </ul>
+            <ul>
+            <li><i class="fa fa-check"></i></span>Filing of Annual Return</li>
+            <li><i class="fa fa-check"></i></span>Filing of Financial Statements</li>
+            <li><i class="fa fa-check"></i></span>Maintenance of Statutory Registers</li>
+            <li><i class="fa fa-check"></i></span>Appointment of Auditor</li>
+            <li>
+            <i class="fa fa-check"></i></span>Filing of Income Tax Returns
+            </li>
+            </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"> 
           <div class="card">
             <div class="card-image">
               <h2 class="card-heading">
@@ -198,25 +70,6 @@
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-12 doc">
-          <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
-          <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
-          <P>
-          <ul>
-            <li><span><i class="fa fa-check"></i></span>PAN Card and Identity proofs of all partners.</li>
-            <li><span><i class="fa fa-check"></i></span> Address Proof of all Partners like Voter ID, passport or
-              driving license.</li>
-            <li><span><i class="fa fa-check"></i></span> Unique company name for LLP Registration</li>
-            <li><span><i class="fa fa-check"></i></span> Passport size photograph</li>
-            <li><span><i class="fa fa-check"></i></span> Passport (in case of Foreign Nationals/ NRIs)</li>
-            <li><span><i class="fa fa-check"></i></span> Utility Bill of the proposed Registered Office of the LLP</li>
-            <li><span><i class="fa fa-check"></i></span> DSC for all the Designated Partners</li>
-          </ul>
-          </P>
-        </div>
-      </div>
     </div>
 
   </section>
@@ -238,7 +91,8 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">What is the minimum number of partners required to start LLP?
+                    <p class="mb-0">What is the maximum number of directors in Company?
+
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -246,7 +100,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>According to the LLP Act, a minimum of two designated partners are required to start an LLP. The designated partners are responsible for fulfilling all the essential requirements involved in starting and running an LLP.
+                  <p>The maximum number of directors a company can appoint is 15. However, the maximum number of directors in a company can be increased beyond 15 by passing a special resolution.
                   </p>
                 </div>
               </div>
@@ -257,14 +111,16 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">Is LLP registration mandatory?</p>
+                    <p class="mb-0">how long does it take to appoint a director?
+                    </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Yes, an registration of an LLP on the Ministry of Corporate (MCA) portal is mandatory. An LLP must obtain registration under the Limited Liability Partnership (LLP) Act to be a legally valid entity.</p>
+                  <p>One the entire procedure is completed and the forms are filled and DIN is obtained,it takes one day to appoint him/her as the company director.
+                </p>
                 </div>
               </div>
             </div>
@@ -274,14 +130,15 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">Can an existing company be converted to LLP?</p>
+                    <p class="mb-0">Who can't be a director of a company?
+                    </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Yes, an existing partnership firm can be converted into LLP by complying with the Provisions of clause 58 and Schedule II of the LLP Act. Form 17 needs to be filed along with Form 2 for such conversion and incorporation of LLP.
+                  <p>A person cannot be appointed as a director if he doesn’t qualify under the AoA, if they are an undischarged bankrupt, or if they are restricted by a court order or company’s official auditor
                   </p>
                 </div>
               </div>
@@ -292,7 +149,8 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">What is the main purpose of a limited partnership?
+                    <p class="mb-0">Is this process online?
+
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -300,7 +158,7 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>The main purpose a limited liability partnership (LLP) is to provide limited liability protection for the partners and also allowing them to share in the profits and losses of the business.
+                  <p>Yes,This process is 100% online process.
                   </p>
                 </div>
               </div>

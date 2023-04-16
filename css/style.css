@@ -1789,6 +1789,7 @@ h1, h2, h3, h4,
       font-size: 12px; }
 
 .social-media {
+  cursor: pointer;
   display: inline-block; }
   .social-media p a {
     /* width: 40px; */

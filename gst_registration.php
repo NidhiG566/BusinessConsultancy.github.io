@@ -3,169 +3,33 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-
-
+<?php include 'head.php' ?>
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
-
-
+  <?php include 'navbar.php' ?>
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-            <h3>ISO Registration In India</h3>
-					<p>ISO refers to International Organization for Standardisation.It is an independent, non-governmental, international organization that creates standards to ensure the quality, safety, and efficiency of the products, services, and systems.ISO Certification certifies that your goods/ services, as well as your organization, provide quality and other standards as per the international standards.The objective of getting yourself ISO register is to advance the improvement of standardisation in technology. ISO has listed internationally recognised standards (e.g, 9001, 22000, 14000) to encourage worldwide exchange of goods.</p>
-					<p>
-					SO certification is optional for business owners and organizations seeking to enhance their business operations per the international standard.But 
-					it is an excellent way to grow your Company's credibility by showing that you meet the high quality that the customer needs. 
-					</p>
-					<h3>What is the process of for ISO Registration</h3>
+          <h3>GST Registration In India</h3>
+          <p>GST Registration is mandatory for every business or corporation involved in buying and selling of goods or services. The registration under GST is mandatory for the business entities based on the criteria of turnover or activities. The business dealing in goods and those providing service have to mandatorily apply for GST Registration if their aggregate turnover for a financial year exceeds Rs.40 Lakhs and Rs.20 Lakhs respectively. </p>
+          <p>
+            GSTIN or GST identification number is a unique 15-digit PAN-based number assigned to every individual registered under GST. Therefore, GST registration is necessary to obtain this number. 
+          </p>
+          <p>
+            The GST registration in India is completely an online process.It usually takes between 2-6 working days. 
+          </p>
+          <h3>What is the process of for Producer Company Registration</h3>
 
-					<ul>
-						<li>Choosing the type of ISO Certification</li>
-						<li>File an application</li>
-						<li>Submission of Documents</li>
-						<li>Quality Documents Review</li>
-						<li>Make an  Action Plan</li>
-						<li>On-Premises Audit by The Registrar</li>
-						<li>Completing the ISO Certification</li>
-					</ul>
+
+          <li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
+          <li>Select a Unique Comapany Name</li>
+          <li>Compiling documents for registration</li>
+          <li>Drafting of MOA and AOA</li>
+          <li>Appeal for Certificate of Incorporation</li>
         </div>
-        <div class="col-md-6"> 
+        <div class="col-md-6">
           <div class="card">
             <div class="card-image">
               <h2 class="card-heading">
@@ -202,13 +66,14 @@
           <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
           <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
           <P>
-            <ul>
-                <li><span><i class="fa fa-check"></i></span>Copy of PAN Card</li>
-                <li><span><i class="fa fa-check"></i></span>  Copy of Aadhar card</li>
-                <li><span><i class="fa fa-check"></i></span>  Passport size photograph</li>
-                <li><span><i class="fa fa-check"></i></span>  Business Name and Address Proof</li>
-                <li><span><i class="fa fa-check"></i></span>  Nature of activities</li>
-            </ul>
+          <ul>
+            <li><span><i class="fa fa-check"></i></span> PAN Card/ Passport/ Election ID Card of all the directors and shareholder</li>
+            <li><span><i class="fa fa-check"></i></span> Passport size photograph of all the directors and shareholder</li>
+            <li><span><i class="fa fa-check"></i></span> Latest Bank Statement/Telephone Bill or Electricity Bill</li>
+            <li><span><i class="fa fa-check"></i></span> Voter's ID/Driver's License/passport of all the directors and shareholders</li>
+            <li><span><i class="fa fa-check"></i></span> scan copy of Rent agreement along with NOC from the owner</li>
+            <li><span><i class="fa fa-check"></i></span> Utility Bill of the proposed Registered Office</li>
+          </ul>
           </P>
         </div>
       </div>
@@ -233,7 +98,8 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">What are benefits of ISO certification company in India?
+                    <p class="mb-0">how many members are required to register a producer company?
+
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -241,7 +107,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>Achieving an ISO quality management certification can pay huge dividends for your business in improved efficiency, productivity and customer satisfaction. But the benefits of ISO go far beyond your operations to every aspect of the business, including sales and marketing, strategic planning and employee engagement.
+                  <p>Any ten or more individuals, each of them being a producer or any two or more Producer institutions, or a combination of ten or more individuals and Producer institutions
                   </p>
                 </div>
               </div>
@@ -252,7 +118,7 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">What is iso 9001?
+                    <p class="mb-0">Is producer company private limited  or public limited?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -260,8 +126,8 @@
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>ISO 9001 is defined as the international standard that specifies requirements for a quality management system (QMS).
-                </p>
+                  <p>On registration the Producer Company shall become a body corporate as a Private Company only and shall not under any circumstances deemed to be a Public Company.
+                  </p>
                 </div>
               </div>
             </div>
@@ -271,7 +137,7 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">is there any renewal of iso certification?
+                    <p class="mb-0">minimum capital requirement for producer company?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -279,7 +145,7 @@
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Yes, ISO certification needs to be renewed.Your ISO certification is valid for up to three years from your certification date. You can find out when you're due for a re-certification by checking the expiry date on your certificate.
+                  <p>The minimum Authorized Capital of Producer Company is Rs.5 lakh.
                   </p>
                 </div>
               </div>
@@ -290,7 +156,7 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">can a person transfer a iso certification?
+                    <p class="mb-0">How long it will take to incorporate a producer company?
 
                     </p>
                     <i class="fa" aria-hidden="true"></i>
@@ -299,7 +165,8 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Yes, you can transfer your ISO certificate from one registrar to another.you are not tied into any contract,and it is pretty easy too.
+                  <p>
+                    It usually takes 20-25 days to register a Producer Company in India.                    
                   </p>
                 </div>
               </div>

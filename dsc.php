@@ -3,228 +3,84 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
-
-
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
-      <!-- code here -->
-      <div class="row">
-        <div class="col-md-6">
-          <h3>Producer Company Registration</h3>
-          <p>Farmer Producer Company is a company registered under the Companies Act, 2013, which has the objective of
-            production, harvesting, procurement, grading, pooling, handling, marketing, selling, export of primary
-            produce of the Members or import of goods or services for their benefit.Before Producer Company Registration
-            in India, Primary producers and farmers were struggling a lot to get the production technology and post
-            harvesting material.</p>
-          <p>
-            Due to this the Government of India, headed by the Alagh Committee examined the matter in advance. This
-            committee came out with a whitepaper to increase the benefits for farmers in deprived sector.
-          </p>
-          <p>
-            In Producer Company, each member can have only one vote, he/ she can contribute different amounts of share
-            capital to the Company. The shares of the Producer Company members cannot be transferred outside the
-            membership.A Producer Company is formed by 10 or more individuals or two or more institutions dealing in
-            agricultural produces or post-harvest processing activities.
-          </p>
-          <h3>What is the process of for Producer Company Registration</h3>
-
-
-          <li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
-          <li>Select a Unique Comapany Name</li>
-          <li>Compiling documents for registration</li>
-          <li>Drafting of MOA and AOA</li>
-          <li>Appeal for Certificate of Incorporation</li>
-        </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-image">
-              <h2 class="card-heading">
-                We will Contact you shortly
-                <small>Please fill this form for our assistance</small>
-              </h2>
+        <!-- code here -->
+        <div class="row">
+            <div class="col-md-6">
+                <h3>DIGITAL SIGNATURE CERTIFICATE IN INDIA</h3>
+                <p>A digital signature certificate (DSC) is a digital certificate that is used to verify the authenticity of an electronic document or message OR electronic and legal alternative of traditional wet signature. 
+  DSCs are issued by a trusted third-party certification authority (CA) and are typically used in electronic transactions, such as online banking, e-filing of tax returns, e-tendering, e-procurement, and other forms of online communication where the authenticity of the document or message needs to be verified.</p>
+  <p>
+  The Information Technology Act, 2000 has provisions for use of Digital Signatures on the documents submitted in electronic form in order to ensure the security and authenticity of the documents filed electronically.
+  </p>
+  <p>
+  When a document is signed using a DSC, the signature is encrypted using the signer's private key, and the recipient can verify the authenticity of the signature by decrypting it using the signer's public key, which is included in the DSC.
+  Digital signature certificates contain information about the individual’s name, residence, email, and date of certificate issuing. 
+  The DSCs are typically issued with one year validity and two year validity. These are renewable on expiry of the period of initial issue.
+  </p>
             </div>
-            <form class="card-form">
-              <div class="input">
-                <input type="text" class="input-field" value="" required />
-                <label class="input-label">Full name</label>
-              </div>
-              <div class="input">
-                <input type="password" class="input-field" required />
-                <label class="input-label">Mobile</label>
-              </div>
-              <div class="input">
-                <input type="text" class="input-field" value="" required />
-                <label class="input-label">Email</label>
-              </div>
-              <div class="action">
-                <button class="action-button">Enquire Now</button>
-              </div>
-            </form>
-            <div class="card-info">
-              <p>Your information is confidential <a href="#"></a></p>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-image">
+                        <h2 class="card-heading">
+                            We will Contact you shortly
+                            <small>Please fill this form for our assistance</small>
+                        </h2>
+                    </div>
+                    <form class="card-form">
+                        <div class="input">
+                            <input type="text" class="input-field" value="" required />
+                            <label class="input-label">Full name</label>
+                        </div>
+                        <div class="input">
+                            <input type="password" class="input-field" required />
+                            <label class="input-label">Mobile</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" class="input-field" value="" required />
+                            <label class="input-label">Email</label>
+                        </div>
+                        <div class="action">
+                            <button class="action-button">Enquire Now</button>
+                        </div>
+                    </form>
+                    <div class="card-info">
+                        <p>Your information is confidential <a href="#"></a></p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-12 doc">
-          <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
-          <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
-          <P>
-          <ul>
-            <li><span><i class="fa fa-check"></i></span> PAN Card/ Passport/ Election ID Card of all the directors and shareholder</li>
-            <li><span><i class="fa fa-check"></i></span> Passport size photograph of all the directors and shareholder</li>
-            <li><span><i class="fa fa-check"></i></span> Latest Bank Statement/Telephone Bill or Electricity Bill</li>
-            <li><span><i class="fa fa-check"></i></span> Voter's ID/Driver's License/passport of all the directors and shareholders</li>
-            <li><span><i class="fa fa-check"></i></span> scan copy of Rent agreement along with NOC from the owner</li>
-            <li><span><i class="fa fa-check"></i></span> Utility Bill of the proposed Registered Office</li>
-          </ul>
-          </P>
+        <div class="row">
+            <div class="col-md-12 doc">
+                <h2 class="text-center" style="color: green;">Process</h2>
+                <H5 class="text-center">FOR DSC</H5>
+                <P>
+                    <ul>
+                        <li><span><i class="fa fa-check"></i></span> Submit an application</li>
+                        <li><span><i class="fa fa-check"></i></span>  Identity Verification</li>
+                        <li><span><i class="fa fa-check"></i></span>  Filling of Form</li>
+                        <li><span><i class="fa fa-check"></i></span>  Issuance of Certificate</li>
+                        <li><span><i class="fa fa-check"></i></span>  Download and Installation DSC</li>
+                    </ul>
+                </P>
+            </div>
         </div>
-      </div>
     </div>
 
-  </section>
+</section>
 
-  <section class="ftco-section ftco-no-pt bg-light ftco-faqs">
+<section class="ftco-section ftco-no-pt bg-light ftco-faqs">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 pl-lg-12">
@@ -241,17 +97,14 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">how many members are required to register a producer company?
-
-                    </p>
+                    <p class="mb-0">No of people required to start a private limited company</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>Any ten or more individuals, each of them being a producer or any two or more Producer institutions, or a combination of ten or more individuals and Producer institutions
-                  </p>
+                  <p>You can start a private limited company with a minimum of two directors and It can have 200 members at most.</p>
                 </div>
               </div>
             </div>
@@ -261,16 +114,14 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">Is producer company private limited  or public limited?
-                    </p>
+                    <p class="mb-0">Difference between public and pvt ltd company</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>On registration the Producer Company shall become a body corporate as a Private Company only and shall not under any circumstances deemed to be a Public Company.
-                  </p>
+                    <p>public companies issue its shares to the public, private company limit it to only certain shareholders.</p>
                 </div>
               </div>
             </div>
@@ -280,16 +131,14 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">minimum capital requirement for producer company?
-                    </p>
+                    <p class="mb-0">Can we open private limited company at residential house?</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>The minimum Authorized Capital of Producer Company is Rs.5 lakh.
-                  </p>
+                    <p>It can be registered as long as the space is suitable for the respective business.</p>
                 </div>
               </div>
             </div>
@@ -299,18 +148,14 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">How long it will take to incorporate a producer company?
-
-                    </p>
+                    <p class="mb-0">What MOA(memorandum of association) and AOA(article of association) ?</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>
-                    It usually takes 20-25 days to register a Producer Company in India.                    
-                  </p>
+                  <p>An MOA is a legal document that every company needs to file during its registration. It consists of the basic details of the company with its purpose of incorporation. On the other hand, an AOA is a document that lays down the guidelines on which the company will operate.</p>
                 </div>
               </div>
             </div>
@@ -319,7 +164,7 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section bg-light">
+<section class="ftco-section bg-light">
     <div class="container">
       <div class="row justify-content-center pb-5 mb-3">
         <div class="col-md-7 heading-section text-center ftco-animate">
@@ -412,6 +257,22 @@
             </div>
           </div>
         </div>
+        <!-- <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="block-7">
+            <div class="text-center">
+              <span class="excerpt d-block">Premium</span>
+              <span class="price"><sup>$</sup> <span class="number">149</span> <sub>/mos</sub></span>
+              <ul class="pricing-text mb-5">
+                <li><span class="fa fa-check mr-2"></span>Brand Strategy</li>
+                <li><span class="fa fa-check mr-2"></span>Online Marketing</li>
+                <li><span class="fa fa-check mr-2"></span>Branding Services</li>
+                <li><span class="fa fa-check mr-2"></span>Creative Marketing</li>
+                <li><span class="fa fa-check mr-2"></span>Sales Management</li>
+              </ul>
+              <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+            </div>
+          </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -426,56 +287,44 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+        <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
           <div class="card_us">
             <div class="card-body">
               <h4 class="card-title">Genuine Prices</h4>
               <div class="card-image_us" style="color: #213661;">
                 <span><img src="images/best-price.png" alt=""></span>
               </div>
-              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis
-                quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti
-                cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel.
-                Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel
-                magni.</p>
+              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel. Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel magni.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+        <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
           <div class="card_us">
             <div class="card-body">
               <h4 class="card-title">All Days Working</h4>
               <div class="card-image_us" style="color: #213661;">
                 <span><img src="images/daily-calendar-on-day-7-with-a-small-clock-symbol.png" alt=""></span>
               </div>
-              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis
-                quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti
-                cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel.
-                Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel
-                magni.</p>
+              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel. Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel magni.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+        <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
           <div class="card_us">
             <div class="card-body">
               <h4 class="card-title">Support</h4>
               <div class="card-image_us" style="color: #213661;">
                 <span><img src="images/customer-service.png" alt=""></span>
               </div>
-              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis
-                quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti
-                cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel.
-                Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel
-                magni.</p>
+              <p class="card-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat perferendis quaerat possimus maiores recusandae nam ducimus quod mollitia porro, commodi, rem doloribus corrupti cumque error et praesentium, totam molestias consequuntur nihil ea architecto exercitationem vel. Exercitationem odit ab deserunt dolore cumque. Consectetur, repellat! Ex vitae minima debitis libero vel magni.</p>
             </div>
           </div>
         </div>
-
-
+    
+    
       </div>
     </div>
-
+    
   </section>
   <footer class="footer">
     <div class="container-fluid px-lg-5">
@@ -562,14 +411,12 @@
         </div>
       </div>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
-      class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
-    </a>
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
-      class="call_to" target="_blank">
+      </a>
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="call_to" target="_blank">
       <i class="fa fa-phone my_call"></i>
-    </a>
+      </a>
   </footer>
 
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">

@@ -3,163 +3,44 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<!--Head-->
+
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
 
 
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-            <h3>Proprietorship Registration</h3>
-            <p>A proprietorship is a type of business that is owned, managed, and controlled by one person.The owner of the Business is called Sole Proprietor of the Firm.This is one of the most popular forms of business structure for micro and small businesses operating in the unorganized sectors due to its simplicity, ease of information access and nominal cost.it is very easy to start and there are very minimal compliance requirements.</p>
-            <p></p>
-            <h3>What is the process of for Private Limited Company Registration</h3>
+            <h3>Micro Finance Company Registration</h3>
+					<p>A Microfinance Company is a financial institution that provides Financial Services like, Loans, Credit, Insurance, and Savings to small business entrepreneurs and small enterprises.micro-finance business really supports people with financial help where the formal banking system is not available.They provide small loans that are under Rs.50,000 for rural areas and for urban it is Rs.1,25,000.</p>
+					<p>
+					The two most ideal forms of business can run Micro Finance Institutions (MFI).
 
-            <ul>
-                <li>Apply for DSC (Digital Signature Certificate)</li>
-                <li>Apply for the DIN (Director Identification Number)</li>
-                <li>Apply for the name availability</li>
-                <li>File the EMoa and EAOA to register the private limited company</li>
-                <li>Apply for the PAN and TAN of the company</li>
-                <li>Open a current bank account on the company name</li>
-            </ul>
+                    <ol>1. Non-Banking Finance Company (NBFC or duly registered with RBI)</ol>
+                    <ol>2. Micro Finance Company</ol>
+  
+                    
+                    
+					</p>
+					<h3>What is the process of for Micro Finance Company Registration</h3>
+
+					<ul>
+						<li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
+						<li>Select a Unique Comapany Name</li>
+						<li>Compiling forms,documents,AOA and MOA of your Company</li>
+						<li>Filing e-forms with MCA</li>
+						<li>Appeal for COI, PAN, TAN and Bank account</li>
+					</ul>
         </div>
         <div class="col-md-6">
           <div class="card">
@@ -199,12 +80,12 @@
           <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
           <P>
             <ul>
-                <li><span><i class="fa fa-check"></i></span> PAN Card</li>
-                <li><span><i class="fa fa-check"></i></span>  Govt ID proof - Voters’ ID or passport or driver’s license</li>
-                <li><span><i class="fa fa-check"></i></span>  Bank statement</li>
-                <li><span><i class="fa fa-check"></i></span>  Utility bills either mobile or gas or electricity</li>
+                <li><span><i class="fa fa-check"></i></span>  PAN & Aadhar Card</li>
                 <li><span><i class="fa fa-check"></i></span>  Passport size photograph</li>
-                <li><span><i class="fa fa-check"></i></span>  Specimen signature - Director’s signature on a blank document</li>
+                <li><span><i class="fa fa-check"></i></span>  Latest Bank Statement/Telephone Bill or Electricity Bill</li>
+                <li><span><i class="fa fa-check"></i></span>  Mobile Number and Email ID's</li>
+                <li><span><i class="fa fa-check"></i></span>  Passport (in case of Foreign Nationals/ NRIs)</li>
+                <li><span><i class="fa fa-check"></i></span>  Utility Bill of the proposed Registered Office</li>
             </ul>
           </P>
         </div>
@@ -230,8 +111,7 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">Who can get sole proprietorship registration?
-
+                    <p class="mb-0">What are the Capital Requirements to Start Section Microfinance Company?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -239,7 +119,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>An Indian Citizen with a current account in the name of his/her business can get a sole proprietorship registration.
+                  <p>There is no bar by law for minimum and maximum capital, you can start with Rs. 10,000 as well.
                   </p>
                 </div>
               </div>
@@ -250,8 +130,7 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">Do I need a separate bank account for the registration of proprietorship firm?
-
+                    <p class="mb-0">Does a microfinance company require to carry out any form of prepayment?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -259,7 +138,7 @@
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p> No, you can register for a proprietorship firm from your personal bank account.
+                  <p> No this form of company does not require to carry out any prepayment.
                 </p>
                 </div>
               </div>
@@ -270,7 +149,7 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">Who can be a Sole Proprietor?
+                    <p class="mb-0">What are the benefits of registring a micro finance company?
 
                     </p>
                     <i class="fa" aria-hidden="true"></i>
@@ -279,8 +158,7 @@
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p> Any individual who plans to start his/her own business or company with less or more investment can register for a sole proprietorship. The owner will be solely responsible for managing and running the business and shall share the profit and losses by himself/herself. The control, decision making and execution will be in the hands of the sole proprietor.
-
+                  <p> It benefits in fostering self-reliance and entrepreneurship. -Constant and smooth access to funding. -High-grade overall loan repayment rate in correlation to traditional bank.
                   </p>
                 </div>
               </div>
@@ -291,7 +169,7 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">Can other people invest in a Proprietorship?
+                    <p class="mb-0">What is the difference between microfinance company & NBFC?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -299,7 +177,7 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Proprietorship firms are business entity that are owned, managed and controlled by one person. So Proprietorship firms cannot issue shares or have investors.
+                  <p>The Micro Finance Companies works towards providing loans to the backward section of the society that resided in the rural areas. NBFCs works towards providing loans in urban as well as in rural areas as they are available PAN India.
                   </p>
                 </div>
               </div>

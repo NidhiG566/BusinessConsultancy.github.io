@@ -3,167 +3,45 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<!--Head-->
+
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
 
 
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-            <h3>Nidhi Company Registration</h3>
-            <p>Nidhi Company is in the form of Public Limited Company registered under the Companies Act, 2013.Any RBI approval does not require for that kind of company registration in India.A Nidhi Company follows the Net owned funding system,which can take deposits from its members and offer money to them.</p>
-            <p>
-            It inculcates the habit of saving among its members and works on the principle of mutual benefit.
-            Nidhi business structure is a best suitable for the young entrepreneurs who wants to enter the world of finance business.The concept of Nidhi Company is quite popular in the southern region of India.
-            </p>
-            <h3>What is the process of for Nidhi Company Registration</h3>
+          <h3> Limited Liability Partnership In India</h3>
+          <p>LLP is an alternative corporate business form that gives the benefits of limited liability of a company and
+            the flexibility of a partnership.A Limited Liability Partnership (LLP) is governed by the Limited Liability
+            Partnership Act 2008; the Bill was presented on 12 December 2008 and was enforced on 31st March 2008. The
+            act governs the formation and regulation of a Limited Liability Partnership.</p>
+          <p>
+            To register an LLP minimum two partners are required to incorporate an LLP. However, there is no upper limit
+            on the maximum number of partners of an LLP.
+          </p>
+          <h3>What is the process of for Limited Liability Partnership In India</h3>
 
-            <ul>
-                <li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
-                <li>Select a Unique Comapany Name</li>
-                <li>Compiling documents for registration</li>
-                <li>Filing e-forms with MCA</li>
-                <li>Appeal for Certificate of Incorporation</li>
-            </ul>
+          <ul>
+            <li>Obtain Digital Signature Certificate (DSC)</li>
+            <li>Getting Digital Signature Certificate (DSC)</li>
+            <li>Select a Unique Name for your LLP</li>
+            <li>Preparation of Documents for Incorporation of LLP</li>
+            <li>File Limited Liability Partnership (LLP) Agreement</li>
+            <li>Appeal for PAN, TAN and Bank account</li>
+          </ul>
         </div>
-        <div class="col-md-6"> 
+        <div class="col-md-6">
           <div class="card">
             <div class="card-image">
               <h2 class="card-heading">
@@ -200,15 +78,16 @@
           <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
           <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
           <P>
-            <ul>
-                <li><span><i class="fa fa-check"></i></span> Aadhar Card</li>
-                <li><span><i class="fa fa-check"></i></span>  Passport size photograph</li>
-                <li><span><i class="fa fa-check"></i></span>  Latest Bank Statement/Telephone Bill or Electricity Bill</li>
-                <li><span><i class="fa fa-check"></i></span>  Mobile Number and Email ID's</li>
-                <li><span><i class="fa fa-check"></i></span>  2 Suggested name of the company</li>
-                <li><span><i class="fa fa-check"></i></span>  Passport or PAN Card(in case of Foreign Nationals/ NRIs)</li>
-                <li><span><i class="fa fa-check"></i></span>  Utility Bill of the proposed Registered Office</li>
-            </ul>
+          <ul>
+            <li><span><i class="fa fa-check"></i></span>PAN Card and Identity proofs of all partners.</li>
+            <li><span><i class="fa fa-check"></i></span> Address Proof of all Partners like Voter ID, passport or
+              driving license.</li>
+            <li><span><i class="fa fa-check"></i></span> Unique company name for LLP Registration</li>
+            <li><span><i class="fa fa-check"></i></span> Passport size photograph</li>
+            <li><span><i class="fa fa-check"></i></span> Passport (in case of Foreign Nationals/ NRIs)</li>
+            <li><span><i class="fa fa-check"></i></span> Utility Bill of the proposed Registered Office of the LLP</li>
+            <li><span><i class="fa fa-check"></i></span> DSC for all the Designated Partners</li>
+          </ul>
           </P>
         </div>
       </div>
@@ -233,8 +112,7 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">What is the minimum number of members in Nidhi Company?
-
+                    <p class="mb-0">What is the minimum number of partners required to start LLP?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -242,7 +120,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>Minimum of seven members is required to start a Nidhi Company out of which three members must be the directors of the company.
+                  <p>According to the LLP Act, a minimum of two designated partners are required to start an LLP. The designated partners are responsible for fulfilling all the essential requirements involved in starting and running an LLP.
                   </p>
                 </div>
               </div>
@@ -253,16 +131,14 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">Are there any caps on accepting deposits from members?
-                    </p>
+                    <p class="mb-0">Is LLP registration mandatory?</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>A Nidhi can accept deposits not exceeding 20 times of its net owned assets as mentioned in the last audited statements.
-                </p>
+                  <p>Yes, an registration of an LLP on the Ministry of Corporate (MCA) portal is mandatory. An LLP must obtain registration under the Limited Liability Partnership (LLP) Act to be a legally valid entity.</p>
                 </div>
               </div>
             </div>
@@ -272,15 +148,14 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">What is the validity of the certificate for a Nidhi company?
-                    </p>
+                    <p class="mb-0">Can an existing company be converted to LLP?</p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
                 </h2>
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Under the Companies Act, 2013 once the certificate of incorporation is provided then the same would be valid indefinitely. There is no expiry date for this certificate.
+                  <p>Yes, an existing partnership firm can be converted into LLP by complying with the Provisions of clause 58 and Schedule II of the LLP Act. Form 17 needs to be filed along with Form 2 for such conversion and incorporation of LLP.
                   </p>
                 </div>
               </div>
@@ -291,8 +166,7 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">What are the criteria to become a representative of a Nidhi Company?
-
+                    <p class="mb-0">What is the main purpose of a limited partnership?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -300,27 +174,7 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>Any person can deposit, lend or borrow money through the provisions provided by the Companies Act, 2013. Hence, they can all become members of a Nidhi Company. provided they are not a corporation or a company.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header p-0" id="headingFour" role="tab">
-                <h2 class="mb-0">
-                  <button href="#collapseFour"
-                    class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
-                    data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">What is the minimum capital required to start a nidhi company?
-
-                    </p>
-                    <i class="fa" aria-hidden="true"></i>
-                  </button>
-                </h2>
-              </div>
-              <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="card-body py-3 px-0">
-                  <p>The minimum capital requirement to start a Nidhi Company is Rs. 10 lakh (Increased via Nidhi (Amendment) Rules, 2022. Since Nidhi Company is registered as a Public Limited Company and must have “Nidhi Limited” as the last words of its name.
+                  <p>The main purpose a limited liability partnership (LLP) is to provide limited liability protection for the partners and also allowing them to share in the profits and losses of the business.
                   </p>
                 </div>
               </div>

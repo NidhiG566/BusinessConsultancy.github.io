@@ -3,164 +3,48 @@
 
 <!--Head-->
 
-<head>
-  <title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/editstyle.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+<!--Head-->
+
+<?php include 'head.php' ?>
+
 
 
 <body>
   <!--Navbar-->
-
-  <div class="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-wrap">
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                  <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span>+91 97185 69879</a>
-                  <a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__"
-                      data-cfemail="dba2b4aea9beb6bab2b79bbeb6bab2b7f5b8b4b6">[email&#160;protected]</span></a>
-                </p>
-              </div>
-              <div class="col-md-6 d-flex justify-content-md-end">
-                <div class="social-media">
-                  <p class="mb-0 d-flex">
-                    <a href="#" class="d-flex align-items-center justify-content-center">About Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Contact Us</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Testimonials</a>
-                    <a href="#" class="d-flex align-items-center justify-content-center">Blogs</a>
-
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'navbar.php' ?>
+ 
   <!-- header start -->
-  <header class="header">
-    <div class="container-fluid">
-      <div class="header-main">
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-        <div class="open-nav-menu">
-          <span></span>
-        </div>
-        <div class="menu-overlay">
-        </div>
-        <!-- navigation menu start -->
-        <nav class="nav-menu">
-          <div class="close-nav-menu">
-            <img src="img/close.svg" alt="close">
-          </div>
-          <ul class="menu">
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Start a Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Private Limited Company Registration</a></li>
-                <li class="menu-item"><a href="#">One Person Company Registration</a></li>
-                <li class="menu-item"><a href="#">LLP Registration</a></li>
-                <li class="menu-item"><a href="#">Section-8 Company Registration</a></li>
-                <li class="menu-item"><a href="#">Micro Finance Company Registration</a></li>
-                <li class="menu-item"><a href="#">Nidhi Company Registration</a></li>
-                <li class="menu-item"><a href="#">Producer Company Registration</a></li>
-                <li class="menu-item"><a href="#">Proprietorship Registration</a></li>
-
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Change in Business<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Add Directors in Company</a></li>
-                <li class="menu-item"><a href="#">Remove Director in Company</a></li>
-                <li class="menu-item"><a href="#">Add Partners in LLP</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Tax and Compliance<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">Annual Compliances For Private Limited Company</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Section-8 Company(NGO)</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For LLP Firm</a></li>
-                <li class="menu-item"><a href="#">Annual Compliances For Nidhi Company</a></li>
-                <li class="menu-item"><a href="#">Income Tax ITR Filing</a></li>
-                <li class="menu-item"><a href="#">GST Registration</a></li>
-                <li class="menu-item"><a href="#">Director's KYC (DIR-3 KYC) Filings</a></li>
-                <li class="menu-item"><a href="#">CSR 1 Form Registration</a></li>
-                <li class="menu-item"><a href="#">DIN Related Registration</a></li>
-                <li class="menu-item"><a href="#">Digital Signature(DSC)</a></li>
-                <li class="menu-item"><a href="#">Trademark Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark Reply filing</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-              </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" data-toggle="sub-menu">Government Registrations<i class="plus"></i></a>
-              <ul class="sub-menu">
-                <li class="menu-item"><a href="#">12AB & 80G Registration</a></li>
-                <li class="menu-item"><a href="#">NGO Darpan Registration</a></li>
-                <li class="menu-item"><a href="#">Startup India Registration</a></li>
-                <li class="menu-item"><a href="#">ISO Certification</a></li>
-                <li class="menu-item"><a href="#">Import Export License Registration</a></li>
-                <li class="menu-item"><a href="#">Trademark</a></li>
-                <li class="menu-item"><a href="#">FSSAI</a></li>
-                <li class="menu-item"><a href="#">MSME/Udyam Registration</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#">Services</a>
-            </li>
-            <li class="menu-item">
-              <a href="blogs.php">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- navigation menu end -->
-      </div>
-    </div>
-  </header>
 
 
   <section class="ftco-section">
-    <?php include 'navbar.php' ?>
     <div class="container">
       <!-- code here -->
       <div class="row">
         <div class="col-md-6">
-            <h3>Section 8 Company In India</h3>
-					<p>company is referred a to as Section 8 Company when registered as a Non-Profit Organization (NPO).The primary purpose of registering a company as a Section 8 Company is to promote non-profit objectives such as trade, commerce, arts, charity, education, religion, environment protection, social welfare, sports research, etc.</p>
-					<p>
-					Section 8 company registration has more benefits in comparison to trust and society.The profit generated by the section 8 companies cannot be utilized to fulfilled objectives other than charitable purposes. Further, such profit cannot be allocated to the shareholders.
-					</p>
-					<h3>What is the process of for Section 8 Company Registration</h3>
+          <h3>Producer Company Registration</h3>
+          <p>Farmer Producer Company is a company registered under the Companies Act, 2013, which has the objective of
+            production, harvesting, procurement, grading, pooling, handling, marketing, selling, export of primary
+            produce of the Members or import of goods or services for their benefit.Before Producer Company Registration
+            in India, Primary producers and farmers were struggling a lot to get the production technology and post
+            harvesting material.</p>
+          <p>
+            Due to this the Government of India, headed by the Alagh Committee examined the matter in advance. This
+            committee came out with a whitepaper to increase the benefits for farmers in deprived sector.
+          </p>
+          <p>
+            In Producer Company, each member can have only one vote, he/ she can contribute different amounts of share
+            capital to the Company. The shares of the Producer Company members cannot be transferred outside the
+            membership.A Producer Company is formed by 10 or more individuals or two or more institutions dealing in
+            agricultural produces or post-harvest processing activities.
+          </p>
+          <h3>What is the process of for Producer Company Registration</h3>
 
-					<ul>
-						<li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
-						<li>Select a Unique Comapany Name</li>
-						<li>Compiling forms,documents,AOA and MOA of your Company</li>
-						<li>Filing of Section-8 Incorporation forms on MCA</li>
-						<li>Appeal for COI, PAN, TAN and Bank account</li>
-					</ul>
+
+          <li>Obtain Digital Signature Certificate (DSC) and Director Identification Number (DIN)</li>
+          <li>Select a Unique Comapany Name</li>
+          <li>Compiling documents for registration</li>
+          <li>Drafting of MOA and AOA</li>
+          <li>Appeal for Certificate of Incorporation</li>
         </div>
         <div class="col-md-6">
           <div class="card">
@@ -199,14 +83,14 @@
           <h2 class="text-center" style="color: green;">DOCUMENTS NEEDED</h2>
           <H5 class="text-center">FOR COMPANY REGISTRATION</H5>
           <P>
-            <ul>
-                <li><span><i class="fa fa-check"></i></span> PAN Card</li>
-                <li><span><i class="fa fa-check"></i></span>  Govt ID proof - Voters’ ID or passport or driver’s license</li>
-                <li><span><i class="fa fa-check"></i></span>  Bank statement</li>
-                <li><span><i class="fa fa-check"></i></span>  Utility bills either mobile or gas or electricity</li>
-                <li><span><i class="fa fa-check"></i></span>  Passport size photograph</li>
-                <li><span><i class="fa fa-check"></i></span>  Specimen signature - Director’s signature on a blank document</li>
-            </ul>
+          <ul>
+            <li><span><i class="fa fa-check"></i></span> PAN Card/ Passport/ Election ID Card of all the directors and shareholder</li>
+            <li><span><i class="fa fa-check"></i></span> Passport size photograph of all the directors and shareholder</li>
+            <li><span><i class="fa fa-check"></i></span> Latest Bank Statement/Telephone Bill or Electricity Bill</li>
+            <li><span><i class="fa fa-check"></i></span> Voter's ID/Driver's License/passport of all the directors and shareholders</li>
+            <li><span><i class="fa fa-check"></i></span> scan copy of Rent agreement along with NOC from the owner</li>
+            <li><span><i class="fa fa-check"></i></span> Utility Bill of the proposed Registered Office</li>
+          </ul>
           </P>
         </div>
       </div>
@@ -231,7 +115,7 @@
                   <button href="#collapseOne"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
-                    <p class="mb-0">Can a Sec 8 Company be incorporated both as Public & Private Company?
+                    <p class="mb-0">how many members are required to register a producer company?
 
                     </p>
                     <i class="fa" aria-hidden="true"></i>
@@ -240,7 +124,7 @@
               </div>
               <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-body py-3 px-0">
-                  <p>A Sec. 8 company can be incorporated as a Public or Private Company. As per the Companies Act, 2013, it depends on the numbers of responsible people on the board. Private Company: 2 Directors, 2 members Public Company: 3 Directors, 7 members
+                  <p>Any ten or more individuals, each of them being a producer or any two or more Producer institutions, or a combination of ten or more individuals and Producer institutions
                   </p>
                 </div>
               </div>
@@ -251,8 +135,7 @@
                   <button href="#collapseTwo"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
-                    <p class="mb-0">Can section 8 rage foreign funding?
-
+                    <p class="mb-0">Is producer company private limited  or public limited?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -260,8 +143,8 @@
               </div>
               <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p> Foreign donations are allowed only when FCRA (Foreign Contribution Regulation Act 1976) registration has been done. FCRA license can only be applied after 3-years from the date of registration. However, if some really urgent foreign donations are necessary, then you may apply for prior permission from the commissioner.
-                </p>
+                  <p>On registration the Producer Company shall become a body corporate as a Private Company only and shall not under any circumstances deemed to be a Public Company.
+                  </p>
                 </div>
               </div>
             </div>
@@ -271,8 +154,7 @@
                   <button href="#collapseThree"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="mb-0">Is there any limitation upon a Section 8 Company from doing the investments, furnishing the loans, guarantees, etc to other Companies?
-
+                    <p class="mb-0">minimum capital requirement for producer company?
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -280,7 +162,7 @@
               </div>
               <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p> Yes, Section 8 firm would furnish the loans or guarantees or furnish security associated with the loan or procure through the method of subscription, purchase, etc. the securities of the company but the same must comply within section 180, 185, Section 186, and other sections, whatsoever relevant, of the Companies Act, 2013.
+                  <p>The minimum Authorized Capital of Producer Company is Rs.5 lakh.
                   </p>
                 </div>
               </div>
@@ -291,7 +173,8 @@
                   <button href="#collapseFour"
                     class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link"
                     data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                    <p class="mb-0">Is an office required for starting a Section 8 Company?
+                    <p class="mb-0">How long it will take to incorporate a producer company?
+
                     </p>
                     <i class="fa" aria-hidden="true"></i>
                   </button>
@@ -299,7 +182,8 @@
               </div>
               <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="card-body py-3 px-0">
-                  <p>An address in India where the registered office of the Company will be situated is required. The premises can be commercial/industrial/residential where communication from the MCA will be received.
+                  <p>
+                    It usually takes 20-25 days to register a Producer Company in India.                    
                   </p>
                 </div>
               </div>
